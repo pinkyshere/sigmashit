@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Lexend+Deca&family=Raleway:ital,wght@0,100;0,200;0,500;1,100;1,300&display=swap');
+
+
+body {
+  height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            overflow: hidden;
+}
+
+.ctebtn {
+  font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#enter-site {
+  cursor: pointer;
+  text-align: center;
+  z-index: 2;
+  position: flex;
+  background-color: rgba(0, 0, 0, 0.541);
+  padding: 2000px;
+  border-radius: 10px;
+  text-shadow: 0 0 10px #ffffff65, 0 0 10px #ffffff65, 0 0 10px #ffffff65, 0 0 10px #ffffff65;
+}
+#content {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+}
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  filter: blur(10px);
+}
+
+.bonj {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 999px;
+  margin-top: 40px;
+  height: 45px;
+  width: 45px;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.bonj:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+
+.bonj:active {
+  background-color: rgb(103, 103, 103);
+}
+
+.bonjpic {
+  height: 20px;
+  width: 20px;
+}
+
+.container {
+  margin-top: 150px;
+  width: 450px;
+  height: 450px;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s;
+  background-color: #111111d0;
+}
+
+.center {
+  text-align: center;
+  position: center;
+}
+
+.sparkle {
+  background-image: url(../imgs/sparkle.gif)
+}
+
+.rank {
+  font-family: 'Lexend Deca', sans-serif;
+  color: rgb(177, 9, 9);
+  font-size: 20px;
+  text-shadow: 0 0 10px #c7222265, 0 0 10px #c7222265, 0 0 10px #c7222265, 0 0 10px #c7222265, 0 0 10px #c7222265;
+}
+
+.username {
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.pfp {
+  height: 200px;
+  width: 200px;
+  border-color: black;
+  margin-bottom: 0px;  
+  border-radius: 999px;
+  margin-top: 35px;
+}
+
+.bio {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: rgb(168, 168, 168);
+}
+
+#bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: blur(9px);
+}
