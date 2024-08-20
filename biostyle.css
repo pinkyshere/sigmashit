@@ -33,7 +33,7 @@ body {
   background-color: rgba(0, 0, 0, 0.541);
   padding: 2000px;
   border-radius: 10px;
-  text-shadow: 0 0 10px #ffffff65, 0 0 10px #ffffff65, 0 0 10px #ffffff65, 0 0 10px #ffffff65;
+  text-shadow: 0 0 10px #ffffff65, 0 0 10px #ffffff65, 0 0 10px #ffffff65, 0 0 5px #ffffff65 ;
 }
 #content {
   display: flex;
@@ -87,16 +87,25 @@ video {
 }
 
 .container {
+  opacity: 0; /* Start with the container hidden */
+  display: block; /* Ensure the container takes up space */
   margin-top: 150px;
   width: 450px;
   height: 450px;
-  border-radius: 20px;
+  border-radius: 30px;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
-  transition: 0.3s;
+  transform: translateX(-50%) translateY(-100%);
+  transition: opacity 0.5s ease-in-out; /* Smooth fade-in effect */
   background-color: #111111d0;
 }
+
+.container.show {
+  opacity: 1; /* Fully visible when this class is added */
+  transform: translateX(-50%) translateY(-100%); /* Optional: slide-in effect */
+}
+
+
 
 .center {
   text-align: center;
@@ -109,9 +118,9 @@ video {
 
 .rank {
   font-family: 'Lexend Deca', sans-serif;
-  color: rgb(177, 9, 9);
+  color: rgb(252, 76, 178);
   font-size: 20px;
-  text-shadow: 0 0 10px #c7222265, 0 0 10px #c7222265, 0 0 10px #c7222265, 0 0 10px #c7222265, 0 0 10px #c7222265;
+  text-shadow: 0 0 10px #ff4bf665, 0 0 10px #ff4bf665, 0 0 10px #ff4bf665, 0 0 10px #ff4bf665, 0 0 10px #ff4bf665;
 }
 
 .username {
@@ -137,7 +146,7 @@ video {
 }
 
 #bgvideo {
-  position: fixed;
+  position: aboslute;
   right: 0;
   bottom: 0;
   min-width: 100%;
