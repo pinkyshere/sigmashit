@@ -33,7 +33,7 @@ body {
   background-color: rgba(0, 0, 0, 0.541);
   padding: 2000px;
   border-radius: 10px;
-  text-shadow: 0 0 10px #ffffff65, 0 0 10px #ffffff65, 0 0 10px #ffffff65, 0 0 5px #ffffff65 ;
+  text-shadow: 10 10 10px #ffffff65, 10 10 10px #ffffff65, 10 10 10px #ffffff65, 10 10 10px #ffffff65 ;
 }
 #content {
   display: flex;
