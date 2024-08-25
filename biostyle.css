@@ -20,7 +20,7 @@ body {
     color: white;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%;  
     transform: translate(-50%, -50%);
     margin: 0;
 }
@@ -30,7 +30,7 @@ body {
   text-align: center;
   z-index: 2;
   position: flex;
-  background-color: rgba(0, 0, 0, 0.541);
+  background-color: rgba(0, 0, 0, 0.836);
   padding: 2000px;
   border-radius: 10px;
   text-shadow: 10 10 10px #ffffff65, 10 10 10px #ffffff65, 10 10 10px #ffffff65, 10 10 10px #ffffff65 ;
