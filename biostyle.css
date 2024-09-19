@@ -68,7 +68,7 @@ video {
   width: 45px;
   border: none;
   cursor: pointer;
-  transition: 0.8s;
+  transition: 0.4s;
 }
 
 .bonj:hover {
@@ -96,8 +96,8 @@ video {
   position: absolute;
   left: 50%;
   transform: translateX(-50%) translateY(-100%);
-  transition: opacity 0.5s ease-in-out; /* Smooth fade-in effect */
-  background-color: #111111d0;
+  transition: opacity 0.9s ease-in-out; /* Smooth fade-in effect */
+  background-color: #111111d3;
 }
 
 .container.show {
